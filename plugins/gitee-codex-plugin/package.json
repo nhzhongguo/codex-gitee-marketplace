@@ -1,0 +1,25 @@
+{
+  "name": "gitee-codex-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A confirmation-first Gitee MCP server for Codex.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && esbuild dist/server.js --bundle --platform=node --format=esm --target=node20 --outfile=dist/mcp-server.js",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test dist/test/**/*.test.js",
+    "start": "node dist/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.1",
+    "typescript": "^5.9.0"
+  }
+}

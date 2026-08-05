@@ -1,0 +1,20 @@
+{
+  "name": "yuchen-codex-marketplace",
+  "interface": {
+    "displayName": "豫晨 Codex 插件市场"
+  },
+  "plugins": [
+    {
+      "name": "gitee-codex-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gitee-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

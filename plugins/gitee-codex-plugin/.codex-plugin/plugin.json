@@ -1,0 +1,42 @@
+{
+  "name": "gitee-codex-plugin",
+  "version": "0.1.0",
+  "description": "Manage Gitee repositories, project uploads, branches, and pull requests from Codex.",
+  "author": {
+    "name": "\u8c6b\u6668",
+    "url": "https://gitee.com/yuchen996"
+  },
+  "homepage": "https://gitee.com/yuchen996/codex-gitee-marketplace",
+  "repository": "https://gitee.com/yuchen996/codex-gitee-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "gitee",
+    "git",
+    "mcp",
+    "repository"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Gitee",
+    "shortDescription": "Manage Gitee repositories and pull requests.",
+    "longDescription": "Use Gitee from Codex to inspect repositories, create repositories and branches, upload a local project, and open pull requests with an explicit confirmation step for every remote write.",
+    "developerName": "\u8c6b\u6668",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Repository management",
+      "Project upload",
+      "Pull requests"
+    ],
+    "defaultPrompt": [
+      "List my Gitee repositories.",
+      "Preview uploading this project to a Gitee repository.",
+      "Create a pull request on Gitee."
+    ],
+    "brandColor": "#C71D23",
+    "websiteURL": "https://gitee.com/yuchen996/codex-gitee-marketplace",
+    "composerIcon": "./assets/gitee-composer-icon.png",
+    "logo": "./assets/gitee-logo.png",
+    "logoDark": "./assets/gitee-logo-dark.png"
+  }
+}
