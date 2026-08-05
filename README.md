@@ -4,6 +4,22 @@
 
 本仓库在 Gitee 与 GitHub 保持完全相同的提交内容。安装时任选一个地址添加，**不要同时添加两个地址**，以免重复注册同一个插件市场。
 
+## 演示
+
+下面是基于插件实际工具流程制作的终端风格演示。图片不包含访问令牌、确认令牌或本机绝对路径；文件数量、耗时和仓库信息会随实际环境变化。
+
+### 检查 Gitee 账号
+
+![检查 Gitee 账号的演示](docs/images/demo-account-check.png)
+
+### 安全上传: 先预览，再确认
+
+![安全上传预览与确认的演示](docs/images/demo-safe-upload.png)
+
+### AI 一键安装
+
+![让 AI 安装插件市场的演示](docs/images/demo-ai-install.png)
+
 ## 安装
 
 ### 使用 Gitee
