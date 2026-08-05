@@ -10,15 +10,15 @@
 
 ### 检查 Gitee 账号
 
-![检查 Gitee 账号的演示](https://raw.giteeusercontent.com/yuchen996/codex-gitee-marketplace/raw/main/docs/images/demo-account-check.png)
+![检查 Gitee 账号的演示](https://raw.githubusercontent.com/nhzhongguo/codex-gitee-marketplace/main/docs/images/demo-account-check.png)
 
 ### 安全上传: 先预览，再确认
 
-![安全上传预览与确认的演示](https://raw.giteeusercontent.com/yuchen996/codex-gitee-marketplace/raw/main/docs/images/demo-safe-upload.png)
+![安全上传预览与确认的演示](https://raw.githubusercontent.com/nhzhongguo/codex-gitee-marketplace/main/docs/images/demo-safe-upload.png)
 
 ### AI 一键安装
 
-![让 AI 安装插件市场的演示](https://raw.giteeusercontent.com/yuchen996/codex-gitee-marketplace/raw/main/docs/images/demo-ai-install.png)
+![让 AI 安装插件市场的演示](https://raw.githubusercontent.com/nhzhongguo/codex-gitee-marketplace/main/docs/images/demo-ai-install.png)
 
 ## 安装
 
